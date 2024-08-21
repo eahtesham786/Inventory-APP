@@ -10,4 +10,8 @@ export default class ProductController {
     //   path.join(path.resolve(), "src", "views", "products.html")
     // );
   }
+
+  getAddForm(req,res) {
+    return res.render("new-product");
+  }
 }
